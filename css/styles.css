@@ -663,7 +663,7 @@ textarea {
   font-weight: 400;
   font-size: 12px;
 
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -671,11 +671,14 @@ textarea {
 .input-box {
   position: relative;
 }
+.input-with-icon {
+  position: relative;
+}
 .svg-input {
   width: 18px;
   height: 24px;
   position: absolute;
-  top: 26px;
+  top: 8px;
   left: 16px;
 }
 .input-small {
