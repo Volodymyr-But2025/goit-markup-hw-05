@@ -69,7 +69,9 @@
           <h1 class="section-hero-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="btn">Order Service</button>
+          <button type="button" class="btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--#endregion Hero Section-->
@@ -468,12 +470,36 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-form">
+          <label class="label-footer-form" for="id-input-footer-form"
+            >Subscribe</label
+          >
+          <div class="input-btn-cont">
+            <input
+              class="input-footer-form"
+              id="id-input-footer-form"
+              type="email"
+              name="footer-email"
+              placeholder="E-mail"
+            />
+
+            <button type="button" class="btn-subscribe">
+              Subscribe
+              <svg class="svg-btn-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <!--#endregion Footer-->
-    <div class="backdrop is-open">
+    <!--#region modal Window-->
+
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="btn-close">
+        <button type="button" class="btn-close" data-modal-close>
           <svg class="svg-btn-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -540,6 +566,8 @@
         <button type="button" class="btn">Send</button>
       </div>
     </div>
+    <!--#endregion modal Window-->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 <!--  -->
