@@ -646,6 +646,9 @@ textarea {
 .input-cont {
   margin-bottom: 8px;
 }
+.input-box {
+  margin-bottom: 8px;
+}
 .input-small:hover,
 .input-small:focus-within,
 .input-textarea:hover,
@@ -672,7 +675,7 @@ textarea {
   width: 18px;
   height: 24px;
   position: absolute;
-  top: 8px;
+  top: 26px;
   left: 16px;
 }
 .input-small {
